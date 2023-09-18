@@ -1,0 +1,161 @@
+//1
+*/public class OneHoldings
+{
+    private static final String PROMPT_ADDRESS = "Enter Address: ";
+    private static final String PROMPT_EMAIL = "Enter Email: ";
+    private static final String PROMPT_NUMBER = "Enter Phone number: ";
+    private static final String PROMPT_SALARY = "Enter Salary: ";
+
+    private static Employee promptForEmployeeDetails (String type)
+    {
+        // Print prompts
+        // Read input
+        Scanner input = new Scanner(System.in);
+        System.out.print("Name of the " + type + ":\n");
+        String name = input.nextLine();
+        System.out.print(PROMPT_ADDRESS);
+        String address = input.nextLine();
+        System.out.print(PROMPT_EMAIL);
+        String email = input.nextLine();
+        System.out.print(PROMPT_NUMBER);
+        String hpNumber = input.nextLine();
+        System.out.print(PROMPT_SALARY);
+        double salary = input.nextDouble();
+
+        // Create employee of given type
+        if(type.equals("programmer")) {
+            input.nextLine();
+            System.out.print("Programming Language: ");
+            String programmingLang = input.nextLine();
+            System.out.print("Project Manager Name: ");
+            String projectManager = input.nextLine();
+            return new Programmer(name, address, email, hpNumber, salary, programmingLang, projectManager);
+        }
+        else if (type.equals("promoter")) {
+            input.nextLine();
+            System.out.print("Total Commission: ");
+            double totalCommission = input.nextDouble();
+            System.out.print("Total Sales: ");
+            double totalSales = input.nextDouble();
+            return new Promoter(name, address, email, hpNumber, salary, totalCommission, totalSales);
+        }
+        else {
+            return null;
+        }
+    }
+
+    private static void printEmployeeDetails(Employee emp) {
+        // Print employee fields
+        System.out.println("\nName: " + emp.getName());
+        System.out.println("Address: " + emp.getAddress());
+        System.out.println("Email: " + emp.getEmail());
+        System.out.println("Phone Number: " + emp.getHpNumber());
+        System.out.println("Salary: " + emp.getSalary());
+
+        if (emp instanceof Programmer p) {
+            //Programmer p = (Programmer) emp;
+            System.out.println("Language: " + p.getProgrammingLang());
+            System.out.println("Manager: " + p.getProjectManager());
+
+        } else if (emp instanceof Promoter p) {
+            //Promoter p = (Promoter) emp;
+            System.out.println("Commission: " + p.getTotalCommission());
+            System.out.println("Sales: " + p.getTotalSales());
+        }
+    }
+
+    public static void main(String[] args)
+    {
+        System.out.println("\nEnter programmer details:");
+        Programmer programmer = (Programmer)promptForEmployeeDetails("programmer");
+        if (programmer != null) {
+            printEmployeeDetails(programmer);
+        }
+
+        System.out.println("\nEnter promoter details:");
+        Promoter promoter = (Promoter)promptForEmployeeDetails("promoter");
+        if (promoter != null) {
+            printEmployeeDetails(promoter);
+        }
+    }
+}*/
+
+
+//2
+/*
+    public static void main (String [] args)
+    {
+        Scanner input = new Scanner(System.in);
+
+        final String prompt_Address = "Enter Address: ";
+        final String prompt_Email = "Enter Email: ";
+        final String prompt_PNumber = "Enter Phone number: ";
+        final String prompt_Salary = "Enter Salary: ";
+
+        //creating programmer object
+        System.out.println("Enter the programmer details: \n===========================");
+        System.out.print("Name of the programmer:\n");
+        String programmerName = input.nextLine();
+        System.out.print(prompt_Address);
+        String programmerAddress = input.nextLine();
+        System.out.print(prompt_Email);
+        String programmerEmail = input.nextLine();
+        System.out.print(prompt_PNumber);
+        String programmerHpNumber = input.nextLine();
+        System.out.print(prompt_Salary);
+        double programmerSalary = input.nextDouble();
+        input.nextLine(); // Consume the newline character
+        System.out.print("Programming Language: ");
+        String programmingLang = input.nextLine();
+        System.out.print("Project Manager Name: ");
+        String projectManagerName = input.nextLine();
+
+        Programmer developer = new Programmer(programmerName, programmerAddress, programmerEmail,
+                programmerHpNumber, programmerSalary, programmingLang, projectManagerName);
+
+        programmerName = input.nextLine();
+        developer.setName(programmerName);
+        System.out.println("New programmer name is: " + programmerName);
+        input.nextLine();
+
+        //creating promoter object
+        System.out.println("\nEnter the promoter details: \n===========================");
+        System.out.print("Name of the promoter: ");
+        String promoterName = input.nextLine();
+        System.out.print(prompt_Address);
+        String promoterAddress = input.nextLine();
+        System.out.print(prompt_Email);
+        String promoterEmail = input.nextLine();
+        System.out.print(prompt_PNumber);
+        String promoterHpNumber = input.nextLine();
+        System.out.print(prompt_Salary);
+        double promoterSalary = input.nextDouble();
+        input.nextLine(); // Consume the newline character
+        System.out.print("Total Commission: ");
+        double totalCommission = input.nextDouble();
+        System.out.print("Total Sales: ");
+        double totalSales = input.nextDouble();
+
+        Promoter promoter = new Promoter(promoterName, promoterAddress, promoterEmail,
+                promoterHpNumber, promoterSalary, totalCommission, totalSales);
+
+        // Displaying the details of the created objects
+        System.out.println("\nProgrammer Details:");
+        System.out.println("Name: " + developer.getName());
+        System.out.println(prompt_Address + developer.getAddress());
+        System.out.println(prompt_Email + developer.getEmail());
+        System.out.println(prompt_PNumber + developer.getHpNumber());
+        System.out.println(prompt_Salary + developer.getSalary());
+        System.out.println("Programming Language: " + developer.getProgrammingLang());
+        System.out.println("Project Manager Name: " + developer.getProjectManagerName());
+
+        System.out.println("\none.company.Promoter Details:");
+        System.out.println("Name: " + promoter.getName());
+        System.out.println(prompt_Address + promoter.getAddress());
+        System.out.println(prompt_Email + promoter.getEmail());
+        System.out.println(prompt_PNumber + promoter.getHpNumber());
+        System.out.println(prompt_Salary + promoter.getSalary());
+        System.out.println("Total Commission: " + promoter.getTotalCommission());
+        System.out.println("Total Sales: " + promoter.getTotalSales());
+    }
+}*/

@@ -1,0 +1,14 @@
+[1mdiff --git a/.idea/modules.xml b/.idea/modules.xml[m
+[1mindex 13a0fba..d520633 100644[m
+[1m--- a/.idea/modules.xml[m
+[1m+++ b/.idea/modules.xml[m
+[36m@@ -2,7 +2,7 @@[m
+ <project version="4">[m
+   <component name="ProjectModuleManager">[m
+     <modules>[m
+[31m-      <module fileurl="file://$PROJECT_DIR$/Learning testing.iml" filepath="$PROJECT_DIR$/Learning testing.iml" />[m
+[32m+[m[32m      <module fileurl="file://$PROJECT_DIR$/Learningtesting.iml" filepath="$PROJECT_DIR$/Learningtesting.iml" />[m
+     </modules>[m
+   </component>[m
+ </project>[m
+\ No newline at end of file[m
