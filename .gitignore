@@ -1,6 +1,9 @@
 ### IntelliJ IDEA ###
 out/
 .idea/sonarlint/
+ad
+learning-java-rann.iml
+test
 
 ### VS Code ###
 .vscode/
