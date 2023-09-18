@@ -3,7 +3,7 @@ out/
 ad
 learning-java-rann.iml
 test
-.idea/
+*.idea/
 
 ### VS Code ###
 .vscode/
