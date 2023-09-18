@@ -1,3 +1,4 @@
+//import library for input
 import java.util.Scanner;
 
 public class TestInput {

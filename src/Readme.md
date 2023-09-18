@@ -28,9 +28,9 @@ OOP concept consists of five:
 ---
 I also learned about some of the more **advanced features** of Java, such as:
 
-Generics
-Exception handling
-Multithreading
+- Generics
+- Exception handling
+- Multithreading
 
 ---
 **How I feel:**
