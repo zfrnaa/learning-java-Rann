@@ -1,6 +1,6 @@
 ### IntelliJ IDEA ###
 out/
-.idea/sonarlint/
+.idea/
 ad
 learning-java-rann.iml
 test
