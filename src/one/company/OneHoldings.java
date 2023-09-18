@@ -1,9 +1,11 @@
+//get java file from one/company/ folder
 package one.company;
 
 import java.util.Scanner;
 
 public class OneHoldings
 {
+    //set to final for repeating strings
     private static final String PROMPT_ADDRESS = "Enter Address: ";
     private static final String PROMPT_EMAIL = "Enter Email: ";
     private static final String PROMPT_NUMBER = "Enter Phone number: ";
@@ -58,6 +60,8 @@ public class OneHoldings
         return emp;
     }
 
+    //set to private so it can only be accessed inside OneHoldings
+    //encapsulation
     private static void printEmployeeDetails(Employee emp) {
         // Print employee fields
         System.out.println("\nName: " + emp.getName());

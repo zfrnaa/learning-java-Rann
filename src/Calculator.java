@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 class Calculator
 {
-    private static final String INP_TWONUMBER = "Enter two numbers: "; // Prompt to the user to enter two numbers.
+    // Set Prompt to display to the user to enter two numbers.
+    private static final String INP_TWONUMBER = "Enter two numbers: ";
 
     public static void main(String[] args)
     {
