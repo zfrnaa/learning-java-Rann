@@ -3,7 +3,6 @@
 //get java file from one/company/ folder
 package one.company;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class OneHoldings
