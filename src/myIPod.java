@@ -1,3 +1,5 @@
+//created by zafran - 20212022 q1
+
 import java.util.Scanner;
 
 class setIPod
@@ -29,12 +31,12 @@ class setIPod
         return on;
     }
 
-    public void setSongName (String newSong)
+    public void setSongName(String newSong)
     {
         this.songName = newSong;
     }
 
-    public void setVolumeLevel (int newVolumeLevel)
+    public void setVolumeLevel(int newVolumeLevel)
     {
         this.volumeLevel = newVolumeLevel;
     }
@@ -43,6 +45,7 @@ class setIPod
     {
         return songName;
     }
+
     public int volumeUp()
     {
         volumeLevel += 10;
@@ -58,7 +61,7 @@ class setIPod
 
 public class myIPod
 {
-    public static void main (String [] args)
+    public static void main(String[] args)
     {
         setIPod iPod = new setIPod();
         Scanner input = new Scanner(System.in);

@@ -1,3 +1,5 @@
+//created by zafran - simple exercise of calculation modules and input
+
 import java.util.Scanner;
 
 class Calculator_v2
@@ -16,7 +18,7 @@ class Calculator_v2
 
     public void divide(double n1, double n2)
     {//division two number
-        double division = n1/n2;
+        double division = n1 / n2;
         System.out.println("Here is your result of division: " + division);
     }
 
@@ -54,7 +56,7 @@ public class Simple_calc
         switch (choice)
         {
             case 1:
-                calc.add(num1,num2);
+                calc.add(num1, num2);
                 break;
             case 2:
                 calc.multiply(num1, num2);

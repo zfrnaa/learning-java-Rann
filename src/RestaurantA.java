@@ -1,6 +1,11 @@
+//created by zafran - 20212022 q3
+
+//abstraction with public variables
+
 import java.util.Scanner;
 
-abstract class Customer {
+abstract class Customer
+{
     int extension;
     double totalPayment;
     double discount;
@@ -10,24 +15,29 @@ abstract class Customer {
 
     public abstract void extensionMonth();
 
-    public void display() {
+    public void display()
+    {
         System.out.println("To display something.");
     }
 }
 
-class TripleParkCustomer extends Customer {
-    public void totalPaymentAfterDiscount() {
+class TripleParkCustomer extends Customer
+{
+    public void totalPaymentAfterDiscount()
+    {
         discount = 0.1;
         System.out.println("Payment before discount: " + totalPayment);
         totalPayment = totalPayment - (totalPayment * discount);
     }
 
-    public void extensionMonth() {
+    public void extensionMonth()
+    {
         extension = 10;
     }
 
     @Override
-    public void display() {
+    public void display()
+    {
         totalPaymentAfterDiscount();
         extensionMonth();
         System.out.println("Payment after discount: " + totalPayment);
@@ -36,19 +46,23 @@ class TripleParkCustomer extends Customer {
     }
 }
 
-class DoubleParkCustomer extends Customer {
-    public void totalPaymentAfterDiscount() {
+class DoubleParkCustomer extends Customer
+{
+    public void totalPaymentAfterDiscount()
+    {
         discount = 0.05;
         System.out.println("Payment before discount: " + totalPayment);
         totalPayment = totalPayment - (totalPayment * discount);
     }
 
-    public void extensionMonth() {
+    public void extensionMonth()
+    {
         extension = 5;
     }
 
     @Override
-    public void display() {
+    public void display()
+    {
         totalPaymentAfterDiscount();
         extensionMonth();
         System.out.println("Payment after discount: " + totalPayment);
@@ -56,8 +70,10 @@ class DoubleParkCustomer extends Customer {
     }
 }
 
-public class RestaurantA {
-    public static void main(String[] args) {
+public class RestaurantA
+{
+    public static void main(String[] args)
+    {
         Scanner input = new Scanner(System.in);
 
         // TripleParkCustomer

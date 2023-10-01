@@ -1,3 +1,5 @@
+//created by zafran
+
 package one.company;
 
 public class Employee
@@ -9,7 +11,8 @@ public class Employee
     private double salary;
 
     // Constructor to initialize the employee's private variables.
-    public Employee(String name, String address, String email, String hpNumber, double salary) {
+    public Employee(String name, String address, String email, String hpNumber, double salary)
+    {
         this.name = name;
         this.address = address;
         this.email = email;
@@ -18,7 +21,8 @@ public class Employee
     }
 
     // Getter method for the employee's name.
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
@@ -28,7 +32,8 @@ public class Employee
     }*/
 
     // Getter method
-    public String getAddress() {
+    public String getAddress()
+    {
         return address;
     }
 
@@ -38,7 +43,8 @@ public class Employee
     }*/
 
     // Getter method
-    public String getEmail() {
+    public String getEmail()
+    {
         return email;
     }
 
@@ -48,7 +54,8 @@ public class Employee
     }*/
 
     // Getter method
-    public String getHpNumber() {
+    public String getHpNumber()
+    {
         return hpNumber;
     }
 
@@ -59,7 +66,8 @@ public class Employee
     }*/
 
     // Getter method
-    public double getSalary() {
+    public double getSalary()
+    {
         return salary;
     }
 

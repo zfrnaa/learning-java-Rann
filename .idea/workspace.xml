@@ -8,15 +8,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7373b1ad-b363-45fe-bb25-aa03d7a1dc71" name="Changes" comment="commit workspace">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaFx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-java-rann.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JavaFx.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning-java-rann.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-java-rann.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaintCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaintCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Print_message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Print_message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RestaurantA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RestaurantA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simple_calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simple_calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myIPod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myIPod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/company/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/company/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/company/OneHoldings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/company/OneHoldings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/company/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/company/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/company/Promoter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/company/Promoter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\frant\IdeaProjects\Learning Java from Rann\htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,11 +89,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.2.1/plugins/javaFX/lib&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/frant/IdeaProjects/Simple Calculator&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
@@ -93,20 +106,6 @@
       <recent name="C:\Users\frant\IdeaProjects\Learning testing\src" />
       <recent name="C:\Users\frant\IdeaProjects\Learning testing\out" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="calcFrame$Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calcFrame$Calculator" />
-      <module name="learning-java-rann" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.calcFrame$Calculator" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -173,5 +172,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Learning_Java_from_Rann$OneHoldings.ic" NAME="OneHoldings Coverage Results" MODIFIED="1696170003169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>one.company.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -1,6 +1,9 @@
-//Abstraction
+//created by zafran
 
-abstract class Student {
+//Abstraction with public access variables
+
+abstract class Student
+{
     String name;
     int age;
 
@@ -12,7 +15,8 @@ abstract class Student {
 class Undergraduate extends Student
 {
     //first implementation
-    void register() {
+    void register()
+    {
         System.out.println("Pendaftaran pelajar sarjana muda: " + name + ", " + age + " tahun");
     }
 }
@@ -21,13 +25,15 @@ class Undergraduate extends Student
 class Postgraduate extends Student
 {
     //second implementation
-    void register() {
+    void register()
+    {
         System.out.println("Pendaftaran pelajar sarjana: " + name + ", " + age + " tahun");
     }
 }
 
 //main class
-public class Uni {
+public class Uni
+{
     public static void main(String[] args)
     {
         //new object of Student with student1

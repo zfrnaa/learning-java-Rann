@@ -1,13 +1,17 @@
+//created by zafran
+
 package one.company;
 
-public class Programmer extends Employee {
+public class Programmer extends Employee
+{
     // Private variable to store the programming language and project manager's name
     private String programmingLang;
     private String projectManagerName;
 
     // Constructor to initialize the programmer's private variables.
     public Programmer(String name, String address, String email, String hpNumber,
-                      double salary, String programmingLang, String projectManagerName) {
+                      double salary, String programmingLang, String projectManagerName)
+    {
         // Call the constructor of the `Employee` class to initialize the employee's
         // private variables.
         super(name, address, email, hpNumber, salary);
@@ -18,7 +22,8 @@ public class Programmer extends Employee {
     }
 
     // Getter method
-    public String getProgrammingLang() {
+    public String getProgrammingLang()
+    {
         return programmingLang;
     }
 
@@ -28,7 +33,8 @@ public class Programmer extends Employee {
     }*/
 
     // Getter method
-    public String getProjectManager() {
+    public String getProjectManager()
+    {
         return projectManagerName;
     }
 

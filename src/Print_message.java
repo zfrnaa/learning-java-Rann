@@ -1,4 +1,5 @@
-public class Print_message {
+public class Print_message
+{
     public static void main(String[] args)
     {
         String message = "Welcome to Java";

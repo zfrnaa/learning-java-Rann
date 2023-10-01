@@ -1,7 +1,9 @@
 //import library for input
+
 import java.util.Scanner;
 
-public class TestInput {
+public class TestInput
+{
 
     public static void main(String[] args)
     {

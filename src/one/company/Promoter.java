@@ -1,6 +1,10 @@
+//created by zafran
+
 package one.company;
 
-public class Promoter extends Employee {
+//inheritance from Employee
+public class Promoter extends Employee
+{
     private double totalCommission;
     private double totalSales;
 
@@ -12,7 +16,8 @@ public class Promoter extends Employee {
         this.totalSales = totalSales;
     }
 
-    public double getTotalCommission() {
+    public double getTotalCommission()
+    {
         return totalCommission;
     }
 
@@ -20,7 +25,8 @@ public class Promoter extends Employee {
         this.totalCommission = totalCommission;
     }*/
 
-    public double getTotalSales() {
+    public double getTotalSales()
+    {
         return totalSales;
     }
 
