@@ -9,7 +9,7 @@ abstract class Customer
     int extension;
     double totalPayment;
     double discount;
-    final int FREEFOODVOUCHER = 2;
+    final int FREE_FOOD_VOUCHER = 2;
 
     public abstract void totalPaymentAfterDiscount();
 
