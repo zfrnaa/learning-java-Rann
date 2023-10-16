@@ -42,7 +42,7 @@ class TripleParkCustomer extends Customer
         extensionMonth();
         System.out.println("Payment after discount: " + totalPayment);
         System.out.println("Months of extension: " + extension);
-        System.out.println("Number of free food vouchers: " + FREEFOODVOUCHER);
+        System.out.println("Number of free food vouchers: " + FREE_FOOD_VOUCHER);
     }
 }
 
